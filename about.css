@@ -1,0 +1,76 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232f3e;
+    color: white;
+    padding: 10px 20px;
+
+  }
+
+  header nav {
+  margin: 0 auto;   
+}
+
+  header .logo img {
+    height: 50px;
+  }
+
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+  header nav a:hover {
+    text-decoration: underline;
+  }
+
+  header nav a {
+  font-size: 20px;    
+  padding: 15px 15px; 
+}
+
+
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    color: #232f3e;
+    margin-top: 20px;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+
+  .team img {
+    width: 150px;
+    border-radius: 8px;
+    margin: 5px;
+  }
+
+  footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
